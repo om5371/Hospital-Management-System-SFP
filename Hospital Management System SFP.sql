@@ -23,9 +23,9 @@ CREATE TABLE Patients
 );
 
 
--- =====================================================
+
 -- 2. DOCTORS TABLE
--- =====================================================
+
 
 CREATE TABLE Doctors
 (
@@ -40,9 +40,9 @@ CREATE TABLE Doctors
 );
 
 
--- =====================================================
+
 -- 3. APPOINTMENTS TABLE
--- =====================================================
+
 
 CREATE TABLE Appointments
 (
@@ -60,9 +60,9 @@ CREATE TABLE Appointments
 );
 
 
--- =====================================================
+
 -- 4. MEDICAL RECORDS TABLE
--- =====================================================
+
 
 CREATE TABLE Medical_Records
 (
@@ -83,9 +83,9 @@ CREATE TABLE Medical_Records
 );
 
 
--- =====================================================
+
 -- 5. BILLING TABLE
--- =====================================================
+
 
 CREATE TABLE Billing
 (
@@ -104,9 +104,9 @@ CREATE TABLE Billing
 );
 
 
--- =====================================================
+
 -- 6. DEPARTMENTS TABLE
--- =====================================================
+
 
 CREATE TABLE Departments
 (
@@ -115,9 +115,9 @@ CREATE TABLE Departments
 );
 
 
--- =====================================================
+
 -- 7. DOCTOR_DEPARTMENT TABLE
--- =====================================================
+
 
 CREATE TABLE Doctor_Department
 (
@@ -134,9 +134,9 @@ CREATE TABLE Doctor_Department
 );
 
 
--- =====================================================
+
 -- INSERT PATIENTS
--- =====================================================
+
 
 INSERT INTO Patients
 (patient_id, name, dob, gender, phone_number, email, address, registration_date)
@@ -166,9 +166,9 @@ VALUES
  'pooja@gmail.com', 'Ahmedabad', '2026-03-12');
 
 
--- =====================================================
+
 -- INSERT DOCTORS
--- =====================================================
+
 
 INSERT INTO Doctors
 (doctor_id, name, specialization, phone_number, email,
